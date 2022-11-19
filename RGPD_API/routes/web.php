@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::controller(\App\Http\Controllers\InformationController::class)->group(function () {
+    Route::get('/form', 'createForm');
+    Route::post('/form', 'store');
+});
