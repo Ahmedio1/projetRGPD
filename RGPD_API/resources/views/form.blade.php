@@ -39,7 +39,7 @@
     </div>
     <div class="form-group">
         <label for="adresse">adresse</label>
-        <input type="text" class="form-control"  placeholder="Entrez votre adresse " name="adres">
+        <input type="text" class="form-control"  placeholder="Entrez votre adresse " name="adresse">
     </div>
     <small class="form-text text-muted">Nous ne partagerons pas vos informations </small>
 
