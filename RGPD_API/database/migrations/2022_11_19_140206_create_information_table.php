@@ -21,6 +21,8 @@ class CreateInformationTable extends Migration
             $table->string('email');
             $table->string('tel');
             $table->text('adresse');
+            $table->string('secu');
+
             $table->timestamps();
         });
     }

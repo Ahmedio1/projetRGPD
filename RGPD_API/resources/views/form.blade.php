@@ -41,6 +41,10 @@
         <label for="adresse">adresse</label>
         <input type="text" class="form-control"  placeholder="Entrez votre adresse " name="adresse">
     </div>
+    <div class="form-group">
+        <label for="secu">numéro de sécurité social</label>
+        <input type="text" class="form-control"  placeholder="Entrez votre numéro de sécurité social " name="secu">
+    </div>
     <small class="form-text text-muted">Nous ne partagerons pas vos informations </small>
 
     <button type="submit" class="btn btn-primary">Submit</button>
